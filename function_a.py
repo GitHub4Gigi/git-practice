@@ -6,7 +6,7 @@ def most_common_value(number_list):
     most_common_value = None
     for num in number_list:
         if frequency_index.get(num):
-            frequency_index[num] += 1
+            frequency_index[num] += 2
         else:
             frequency_index[num] = 1
 
