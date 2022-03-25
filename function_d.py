@@ -4,8 +4,8 @@ def max_value(numbers):
     """
     # testing testing testing 
     
-    if type(numbers) == list:
-        return numbers.max()
+    
+    return numbers.max()
 
 
 if __name__ == "__main__":
