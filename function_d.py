@@ -6,7 +6,7 @@ def max_value(numbers):
     for num in numbers:
         sum += num
     
-    return numbers.max()
+    return numbers.max(
 
 
 if __name__ == "__main__":
